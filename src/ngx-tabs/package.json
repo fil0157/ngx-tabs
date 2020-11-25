@@ -1,0 +1,35 @@
+{
+  "name": "@fil0157/ngx-tabs",
+  "version": "5.0.0",
+  "description": "Angular module for creating tabs in angular applications",
+  "author": "fil0157 <fil0157@ya.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fil0157/ngx-tabs.git"
+  },
+  "homepage": "https://ngx-tabs.fil0157.ru",
+  "bugs": {
+    "url": "https://github.com/fil0157/ngx-tabs/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^10.1.2",
+    "@angular/core": "^10.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "angular",
+    "tabs",
+    "ngx"
+  ],
+  "main": "bundles/fil0157-ngx-tabs.umd.js",
+  "module": "fesm2015/fil0157-ngx-tabs.js",
+  "es2015": "fesm2015/fil0157-ngx-tabs.js",
+  "esm2015": "esm2015/fil0157-ngx-tabs.js",
+  "fesm2015": "fesm2015/fil0157-ngx-tabs.js",
+  "typings": "fil0157-ngx-tabs.d.ts",
+  "metadata": "fil0157-ngx-tabs.metadata.json",
+  "sideEffects": false
+}

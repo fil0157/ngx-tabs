@@ -17,8 +17,8 @@
     ],
     "paths": {
       "@fil0157/ngx-tabs": [
-        "dist/fil0157/ngx-tabs/fil0157-ngx-tabs",
-        "dist/fil0157/ngx-tabs"
+        "dist/lib/fil0157-ngx-tabs",
+        "dist/lib"
       ]
     }
   }

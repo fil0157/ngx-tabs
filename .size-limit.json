@@ -1,0 +1,9 @@
+[
+  {
+    "name": "NgxTabsModule",
+    "path": "dist/lib/esm2015/lib/ngx-tabs.module.js",
+    "import": "{ NgxTabsModule }",
+    "ignore": ["@angular", "rxjs"],
+    "limit": "1 KB"
+  }
+]

@@ -125,36 +125,36 @@
     },
     "@fil0157/ngx-tabs": {
       "projectType": "library",
-      "root": "projects/fil0157/ngx-tabs",
-      "sourceRoot": "projects/fil0157/ngx-tabs/src",
+      "root": "src/ngx-tabs",
+      "sourceRoot": "src/ngx-tabs/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/fil0157/ngx-tabs/tsconfig.lib.json",
-            "project": "projects/fil0157/ngx-tabs/ng-package.json"
+            "tsConfig": "src/ngx-tabs/tsconfig.lib.json",
+            "project": "src/ngx-tabs/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/fil0157/ngx-tabs/tsconfig.lib.prod.json"
+              "tsConfig": "src/ngx-tabs/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/fil0157/ngx-tabs/src/test.ts",
-            "tsConfig": "projects/fil0157/ngx-tabs/tsconfig.spec.json",
-            "karmaConfig": "projects/fil0157/ngx-tabs/karma.conf.js"
+            "main": "src/ngx-tabs/src/test.ts",
+            "tsConfig": "src/ngx-tabs/tsconfig.spec.json",
+            "karmaConfig": "src/ngx-tabs/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/fil0157/ngx-tabs/tsconfig.lib.json",
-              "projects/fil0157/ngx-tabs/tsconfig.spec.json"
+              "src/ngx-tabs/tsconfig.lib.json",
+              "src/ngx-tabs/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
