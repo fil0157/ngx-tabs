@@ -2,6 +2,11 @@
  * Public API Surface of ngx-tabs
  */
 
-export * from './lib/ngx-tabs.service';
-export * from './lib/ngx-tabs.component';
+// Module
 export * from './lib/ngx-tabs.module';
+
+// Components
+export * from './lib/components/ngx-tabs/ngx-tabs.component';
+export * from './lib/components/ngx-tab-item/ngx-tab-item.component';
+export * from './lib/components/ngx-tab-body/ngx-tab-body.component';
+export * from './lib/components/ngx-tab-label/ngx-tab-label.component';

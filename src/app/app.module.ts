@@ -1,16 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
+// Angular
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+// App
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
+// Project
+import { NgxTabsModule } from '@fil0157/ngx-tabs';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    NgxTabsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
