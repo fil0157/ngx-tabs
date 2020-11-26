@@ -15,6 +15,7 @@ import { startWith, map, take, tap, delay } from "rxjs/operators";
 
 // Project
 import { NgxTabItemComponent } from "../ngx-tab-item/ngx-tab-item.component";
+import { Styles } from '../../interfaces/styles.interface';
 
 
 
@@ -24,6 +25,11 @@ import { NgxTabItemComponent } from "../ngx-tab-item/ngx-tab-item.component";
   styleUrls: ['./ngx-tabs.component.scss'],
 })
 export class NgxTabsComponent implements AfterContentInit, AfterContentChecked {
+
+  @Input() headerStyles: Styles
+  @Input() labelStyles: Styles
+  @Input() labelActiveStyles: Styles
+  @Input() bodyStyles: Styles
 
   @ContentChildren(NgxTabItemComponent)
   tabs: QueryList<NgxTabItemComponent>;
@@ -64,5 +70,13 @@ export class NgxTabsComponent implements AfterContentInit, AfterContentChecked {
     this.activeTab = tabItem;
 
     tabItem.isActive = true;
+  }
+
+  getLabelStyles(tabItem: NgxTabItemComponent) {
+    if (this.activeTab === tabItem) {
+      return this.labelActiveStyles
+    } else {
+      return this.labelStyles
+    }
   }
 }

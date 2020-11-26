@@ -1,4 +1,10 @@
+// Angular
 import { Component } from '@angular/core';
+
+// Project
+import { Styles } from '@fil0157/ngx-tabs';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +12,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngx-tabs';
+
+  headerStyles: Styles = {'color': '#f00', 'display': 'flex', 'height.px': 100}
+  labelStyles: Styles = {'color': '#0f0'}
+  labelActiveStyles: Styles = {'color': '#00f'}
+  bodyStyles: Styles = {'color': '#0ff'}
+
 }
