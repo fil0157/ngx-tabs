@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+.ngx-tabs {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .ngx-tabs-body {
+    color: #f00;
+  }
+  .ngx-tabs-header {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    color: #0f0;
+  }
+  .ngx-tabs-label {
+    color: #00f;
+  }
+  .ngx-tabs-label-active {
+    color: #0ff;
+  }
+}
+
+.ngx-tabs.custom {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .ngx-tabs-body {
+    color: #00f;
+  }
+  .ngx-tabs-header {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    color: #0ff;
+  }
+  .ngx-tabs-label {
+    color: #ff0;
+  }
+  .ngx-tabs-label-active {
+    color: #f00;
+  }
+}

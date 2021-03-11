@@ -1,21 +1,18 @@
 // Angular
 import {
   Component,
-  OnInit,
   ContentChildren,
   QueryList,
   AfterContentInit,
-  Input,
   AfterContentChecked,
 } from "@angular/core";
 
 // Libs
-import { Observable, Subscription } from "rxjs";
-import { startWith, map, take, tap, delay } from "rxjs/operators";
+import { Observable } from "rxjs";
+import { startWith, map, delay } from "rxjs/operators";
 
 // Project
 import { NgxTabItemComponent } from "../ngx-tab-item/ngx-tab-item.component";
-import { Styles } from '../../interfaces/styles.interface';
 
 
 
@@ -23,16 +20,13 @@ import { Styles } from '../../interfaces/styles.interface';
   selector: 'ngx-tabs',
   templateUrl: './ngx-tabs.component.html',
   styleUrls: ['./ngx-tabs.component.scss'],
+  host: {
+    'class': 'ngx-tabs'
+  }
 })
 export class NgxTabsComponent implements AfterContentInit, AfterContentChecked {
 
-  @Input() headerStyles: Styles
-  @Input() labelStyles: Styles
-  @Input() labelActiveStyles: Styles
-  @Input() bodyStyles: Styles
-
-  @ContentChildren(NgxTabItemComponent)
-  tabs: QueryList<NgxTabItemComponent>;
+  @ContentChildren(NgxTabItemComponent) tabs: QueryList<NgxTabItemComponent>;
 
   tabItems: Observable<NgxTabItemComponent[]>;
 
@@ -70,13 +64,5 @@ export class NgxTabsComponent implements AfterContentInit, AfterContentChecked {
     this.activeTab = tabItem;
 
     tabItem.isActive = true;
-  }
-
-  getLabelStyles(tabItem: NgxTabItemComponent) {
-    if (this.activeTab === tabItem) {
-      return this.labelActiveStyles
-    } else {
-      return this.labelStyles
-    }
   }
 }

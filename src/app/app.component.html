@@ -1,8 +1,25 @@
-<ngx-tabs
-  [headerStyles]="headerStyles"
-  [labelStyles]="labelStyles"
-  [labelActiveStyles]="labelActiveStyles"
-  [bodyStyles]="bodyStyles">
+<ngx-tabs>
+  <ngx-tab-item>
+    <ngx-tab-label>Tab 1</ngx-tab-label>
+    <ngx-tab-body>
+      Tab 1 content
+    </ngx-tab-body>
+  </ngx-tab-item>
+  <ngx-tab-item >
+    <ngx-tab-label>Tab 2</ngx-tab-label>
+    <ngx-tab-body>
+      Tab 2 content
+    </ngx-tab-body>
+  </ngx-tab-item>
+  <ngx-tab-item label="third tab">
+    <ngx-tab-label>Tab 3</ngx-tab-label>
+    <ngx-tab-body>
+      Tab 3 content
+    </ngx-tab-body>
+  </ngx-tab-item>
+</ngx-tabs>
+
+<ngx-tabs class="custom">
   <ngx-tab-item>
     <ngx-tab-label>Tab 1</ngx-tab-label>
     <ngx-tab-body>

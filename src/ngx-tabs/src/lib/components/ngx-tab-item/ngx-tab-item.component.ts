@@ -13,15 +13,12 @@ import { NgxTabLabelComponent } from '../ngx-tab-label/ngx-tab-label.component';
   styleUrls: ['./ngx-tab-item.component.scss']
 })
 export class NgxTabItemComponent implements OnInit {
-  @Input() label: string;
 
+  @Input() label: string;
   @Input() isActive: boolean;
 
-  @ContentChild(NgxTabBodyComponent)
-  bodyComponent: NgxTabBodyComponent;
-
-  @ContentChild(NgxTabLabelComponent)
-  labelComponent: NgxTabLabelComponent;
+  @ContentChild(NgxTabBodyComponent) bodyComponent: NgxTabBodyComponent;
+  @ContentChild(NgxTabLabelComponent) labelComponent: NgxTabLabelComponent;
 
   constructor() { }
 

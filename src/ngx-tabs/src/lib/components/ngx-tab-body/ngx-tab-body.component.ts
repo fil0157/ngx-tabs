@@ -9,8 +9,8 @@ import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
   styleUrls: ['./ngx-tab-body.component.scss']
 })
 export class NgxTabBodyComponent implements OnInit {
-  @ViewChild(TemplateRef)
-  bodyContent: TemplateRef<any>;
+
+  @ViewChild(TemplateRef) bodyContent: TemplateRef<any>;
 
   constructor() { }
 
