@@ -1,16 +1,16 @@
 {
-  "name": "@fil0157/ngx-tabs",
+  "name": "@ngx-eco/ngx-tabs",
   "version": "2.0.0",
   "description": "Angular module for creating tabs in angular applications",
   "author": "fil0157 <fil0157@ya.ru>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fil0157/ngx-tabs.git"
+    "url": "git+https://github.com/ngx-eco/ngx-tabs.git"
   },
-  "homepage": "https://ngx-tabs.fil0157.ru",
+  "homepage": "https://ngx-tabs.ngx-eco.ru",
   "bugs": {
-    "url": "https://github.com/fil0157/ngx-tabs/issues"
+    "url": "https://github.com/ngx-eco/ngx-tabs/issues"
   },
   "peerDependencies": {
     "@angular/common": "^11.0.0",
@@ -24,12 +24,12 @@
     "tabs",
     "ngx"
   ],
-  "main": "bundles/fil0157-ngx-tabs.umd.js",
-  "module": "fesm2015/fil0157-ngx-tabs.js",
-  "es2015": "fesm2015/fil0157-ngx-tabs.js",
-  "esm2015": "esm2015/fil0157-ngx-tabs.js",
-  "fesm2015": "fesm2015/fil0157-ngx-tabs.js",
-  "typings": "fil0157-ngx-tabs.d.ts",
-  "metadata": "fil0157-ngx-tabs.metadata.json",
+  "main": "bundles/ngx-eco-ngx-tabs.umd.js",
+  "module": "fesm2015/ngx-eco-ngx-tabs.js",
+  "es2015": "fesm2015/ngx-eco-ngx-tabs.js",
+  "esm2015": "esm2015/ngx-eco-ngx-tabs.js",
+  "fesm2015": "fesm2015/ngx-eco-ngx-tabs.js",
+  "typings": "ngx-eco-ngx-tabs.d.ts",
+  "metadata": "ngx-eco-ngx-tabs.metadata.json",
   "sideEffects": false
 }

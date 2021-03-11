@@ -1,16 +1,16 @@
 {
-  "name": "@fil0157/ngx-tabs",
+  "name": "@ngx-eco/ngx-tabs",
   "version": "2.0.0",
   "description": "Angular module for creating tabs in angular applications",
   "author": "fil0157 <fil0157@ya.ru>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fil0157/ngx-tabs.git"
+    "url": "git+https://github.com/ngx-eco/ngx-tabs.git"
   },
-  "homepage": "https://ngx-tabs.fil0157.ru",
+  "homepage": "https://ngx-tabs.ngx-eco.ru",
   "bugs": {
-    "url": "https://github.com/fil0157/ngx-tabs/issues"
+    "url": "https://github.com/ngx-eco/ngx-tabs/issues"
   },
   "scripts": {
     "start": "ng serve",
@@ -18,13 +18,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "lib:start": "ng build @fil0157/ngx-tabs --watch",
-    "lib:build": "ng build @fil0157/ngx-tabs && node tools/build-lib.js",
-    "lib:test": "ng test @fil0157/ngx-tabs",
-    "lib:test:run": "ng test @fil0157/ngx-tabs --watch=false --browsers=ChromeHeadless",
+    "lib:start": "ng build @ngx-eco/ngx-tabs --watch",
+    "lib:build": "ng build @ngx-eco/ngx-tabs && node tools/build-lib.js",
+    "lib:test": "ng test @ngx-eco/ngx-tabs",
+    "lib:test:run": "ng test @ngx-eco/ngx-tabs --watch=false --browsers=ChromeHeadless",
     "lib:size": "size-limit",
-    "lib:lint": "ng lint @fil0157/ngx-tabs",
-    "lib:lint:fix": "ng lint @fil0157/ngx-tabs --fix",
+    "lib:lint": "ng lint @ngx-eco/ngx-tabs",
+    "lib:lint:fix": "ng lint @ngx-eco/ngx-tabs --fix",
     "lib:publish": "npm run lib:build && cd dist/lib && npm pack && npm publish",
     "ngcc": "ngcc"
   },

@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 // Project
-import { NgxTabsModule } from '@fil0157/ngx-tabs';
+import { NgxTabsModule } from '@ngx-eco/ngx-tabs';
 
 
 

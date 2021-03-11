@@ -123,7 +123,7 @@
         }
       }
     },
-    "@fil0157/ngx-tabs": {
+    "@ngx-eco/ngx-tabs": {
       "projectType": "library",
       "root": "src/ngx-tabs",
       "sourceRoot": "src/ngx-tabs/src",

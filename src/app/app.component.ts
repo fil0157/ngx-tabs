@@ -2,7 +2,7 @@
 import { Component } from '@angular/core';
 
 // Project
-import { Styles } from '@fil0157/ngx-tabs';
+import { Styles } from '@ngx-eco/ngx-tabs';
 
 
 

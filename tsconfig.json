@@ -16,8 +16,8 @@
       "dom"
     ],
     "paths": {
-      "@fil0157/ngx-tabs": [
-        "dist/lib/fil0157-ngx-tabs",
+      "@ngx-eco/ngx-tabs": [
+        "dist/lib/ngx-eco-ngx-tabs",
         "dist/lib"
       ]
     }

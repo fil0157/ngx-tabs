@@ -1,1 +1,1 @@
-# @fil0157/ngx-tabs
+# @ngx-eco/ngx-tabs
